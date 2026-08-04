@@ -1,16 +1,6 @@
-.vim-style {
-
-  background: #1e1e2e;
-
-  max-width: 500px;
-  margin: 2rem auto;
-
-  border: 1px solid #313244;
-  border-radius: 10px;
-
-  overflow: hidden;
-}
-
+/* =========================
+   Reset
+========================= */
 
 * {
     margin: 0;
@@ -27,8 +17,9 @@
 
     --crust: #11111b;
     --mantle: #181825;
-    --base: #11111b;
-    --border: #334155;
+    --base: #1e1e2e;
+
+    --border: #45475a;
     --surface: #313244;
 
     --text: #cdd6f4;
@@ -38,7 +29,9 @@
     --mauve: #cba6f7;
     --green: #a6e3a1;
     --pink: #f5c2e7;
+
 }
+
 
 /* =========================
    Body
@@ -46,11 +39,14 @@
 
 body {
 
-    background: var(--base);
+    background: var(--crust);
 
     min-height: 100vh;
+
     display: flex;
+
     justify-content: center;
+
     align-items: center;
 
     color: var(--text);
@@ -61,6 +57,30 @@ body {
         monospace;
 
     line-height: 1.6;
+
+}
+
+
+/* =========================
+   Janela Vim
+========================= */
+
+.vim-style {
+
+    background: var(--base);
+
+    width: 90%;
+
+    max-width: 900px;
+
+    margin: 2rem auto;
+
+    border: 1px solid var(--border);
+
+    border-radius: 12px;
+
+    overflow: hidden;
+
 }
 
 
@@ -70,13 +90,10 @@ body {
 
 main {
 
-    max-width: 1000px;
-
-    margin: auto;
-
     padding: 2rem;
 
 }
+
 
 /* =========================
    Textos
@@ -95,7 +112,7 @@ h2 {
 
     color: var(--blue);
 
-    margin-bottom: 1rem;
+    margin: 2rem 0 1rem;
 
 }
 
@@ -110,6 +127,8 @@ h3 {
 p {
 
     color: var(--subtext);
+
+    margin-bottom: 1rem;
 
 }
 
@@ -128,15 +147,17 @@ p {
             var(--base)
         );
 
-
     margin-top: 20px;
-    border: 1px solid var(--surface);
+
+    border: 1px solid var(--border);
 
     border-radius: 12px;
 
     padding: 1.5rem;
 
-    transition: .3s;
+    transition:
+        transform .3s ease,
+        border-color .3s ease;
 
 }
 
@@ -157,8 +178,12 @@ p {
 .tech {
 
     display: flex;
+
     gap: .5rem;
+
     flex-wrap: wrap;
+
+    margin-top: 1rem;
 
 }
 
@@ -168,16 +193,10 @@ p {
     background: var(--surface);
 
     color: var(--blue);
-    margin: 10px;
-    padding:
 
-        .4rem
-
-        .8rem;
-
+    padding: .4rem .8rem;
 
     border-radius: 20px;
-
 
     font-size: .85rem;
 
@@ -192,6 +211,8 @@ a {
 
     color: var(--pink);
 
+    text-decoration: none;
+
 }
 
 
@@ -201,22 +222,47 @@ a:hover {
 
 }
 
+
+/* =========================
+   Footer Vim
+========================= */
+
 .vim-footer {
-  border: 1px solid var(--border);
-  padding: 1.6rem 8rem;
-  display: flex;
-  justify-content: flex;
-  gap: 4rem;
+
+    border-top: 1px solid var(--border);
+
+    padding: 1rem;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    gap: 3rem;
+
+    background: var(--mantle);
+
 }
+
 
 .vim-footer a {
-  font-family: "JetBrains Mono" monospace;
-  opacity: .8;
-  font-size: 0.85;
-  color var(--pink);
+
+    font-family:
+        "JetBrains Mono",
+        monospace;
+
+    opacity: .8;
+
+    font-size: .85rem;
+
 }
 
-.vim-footer:hover {
-  color: var(--mauve);
-  opacity: 1;
+
+.vim-footer a:hover {
+
+    color: var(--mauve);
+
+    opacity: 1;
+
 }
