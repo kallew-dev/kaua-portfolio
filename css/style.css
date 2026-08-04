@@ -1,6 +1,16 @@
-/* =========================
-   Reset
-========================= */
+.vim-style {
+
+  background: #1e1e2e;
+
+  max-width: 500px;
+  margin: 2rem auto;
+
+  border: 1px solid #313244;
+  border-radius: 10px;
+
+  overflow: hidden;
+}
+
 
 * {
     margin: 0;
@@ -17,7 +27,7 @@
 
     --crust: #11111b;
     --mantle: #181825;
-    --base: #1e1e2e;
+    --base: #11111b;
 
     --surface: #313244;
 
@@ -37,6 +47,11 @@
 body {
 
     background: var(--base);
+
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     color: var(--text);
 
