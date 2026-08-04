@@ -280,6 +280,29 @@ p {
 
 }
 
+.project-link {
+
+    color: var(--blue);
+
+    text-decoration: underline;
+
+    text-decoration-color: var(--retro-yellow);
+
+    text-underline-offset: 4px;
+
+    transition: .3s ease;
+
+}
+
+
+.project-link:hover {
+
+    color: var(--retro-yellow);
+
+    text-shadow:
+        0 0 8px rgba(217, 182, 80, .5);
+
+}
 
 /* =========================
    Tecnologias
