@@ -280,7 +280,7 @@ p {
 
 }
 
-.project-link {
+.button {
 
     color: var(--blue);
 
@@ -295,7 +295,7 @@ p {
 }
 
 
-.project-link:hover {
+.button:hover {
 
     color: var(--retro-yellow);
 
