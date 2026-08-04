@@ -28,7 +28,7 @@
     --crust: #11111b;
     --mantle: #181825;
     --base: #11111b;
-
+    --border: #334155;
     --surface: #313244;
 
     --text: #cdd6f4;
@@ -129,14 +129,12 @@ p {
         );
 
 
+    margin-top: 20px;
     border: 1px solid var(--surface);
-
 
     border-radius: 12px;
 
-
     padding: 1.5rem;
-
 
     transition: .3s;
 
@@ -159,9 +157,7 @@ p {
 .tech {
 
     display: flex;
-
     gap: .5rem;
-
     flex-wrap: wrap;
 
 }
@@ -172,10 +168,10 @@ p {
     background: var(--surface);
 
     color: var(--blue);
-
+    margin: 10px;
     padding:
 
-        .3rem
+        .4rem
 
         .8rem;
 
@@ -203,4 +199,24 @@ a:hover {
 
     color: var(--mauve);
 
+}
+
+.vim-footer {
+  border: 1px solid var(--border);
+  padding: 1.6rem 8rem;
+  display: flex;
+  justify-content: flex;
+  gap: 4rem;
+}
+
+.vim-footer a {
+  font-family: "JetBrains Mono" monospace;
+  opacity: .8;
+  font-size: 0.85;
+  color var(--pink);
+}
+
+.vim-footer:hover {
+  color: var(--mauve);
+  opacity: 1;
 }
