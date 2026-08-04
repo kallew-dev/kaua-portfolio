@@ -27,6 +27,7 @@
 
     --blue: #89b4fa;
     --mauve: #cba6f7;
+    --retro-yellow: #d9b650;
     --green: #a6e3a1;
     --pink: #f5c2e7;
 
@@ -39,7 +40,14 @@
 
 body {
 
-    background: var(--crust);
+    background: 
+      linear-gradient(
+        135deg,
+        #0f172a 0%,
+        #1e1e2e 45%,
+        #3b2f1a 75%,
+        #d9b650 100%
+      );
 
     min-height: 100vh;
 
@@ -94,6 +102,32 @@ main {
 
 }
 
+/* =========================
+   Section 
+========================== */
+
+section {
+  padding: 1.5rem;
+  
+  border-radius: 10px;
+
+  transition: 
+      transform .3s ease,
+      background-color .3s ease,
+      box-shadow .3s ease;
+
+  cursor: text;
+}
+
+section:hover {
+  transform: translateY(-5px);
+
+  border: 1px solid var(--retro-yellow); 
+  
+  box-shadow: 0 0 20px rgba(217, 182, 80, .35);
+
+
+}
 
 /* =========================
    Textos
