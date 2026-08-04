@@ -45,12 +45,12 @@ Mais do que um simples site, este projeto representa minha evolução como progr
 ## ✨ Funcionalidades
 
 - [x] Página inicial com apresentação pessoal;
-- [ ] Seção sobre minha jornada;
-- [ ] Apresentação de projetos;
-- [ ] Área de habilidades;
-- [ ] Links profissionais;
-- [ ] Design responsivo;
-- [ ] Animações utilizando JavaScript.
+- [x] Seção sobre minha jornada;
+- [x] Apresentação de projetos;
+- [x] Área de habilidades;
+- [x] Links profissionais;
+- [x] Design responsivo;
+- [x] Animações utilizando JavaScript.
 
 ---
 
