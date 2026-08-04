@@ -30,6 +30,23 @@
     --pink: #f5c2e7;
 }
 
+/* =========================
+   Body
+========================= */
+
+body {
+
+    background: var(--base);
+
+    color: var(--text);
+
+    font-family:
+        "JetBrains Mono",
+        "Fira Code",
+        monospace;
+
+    line-height: 1.6;
+}
 
 
 /* =========================
@@ -45,7 +62,6 @@ main {
     padding: 2rem;
 
 }
-
 
 /* =========================
    Textos
