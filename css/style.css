@@ -38,6 +38,10 @@
    Body
 ========================= */
 
+html {
+  overflow-x: hidden;
+}
+
 body {
 
     background: 
@@ -56,6 +60,8 @@ body {
     justify-content: center;
 
     align-items: center;
+
+    overflow-x: hidden;
 
     color: var(--text);
 
@@ -91,7 +97,6 @@ body {
     max-width: 900px;
 
     margin: 2rem auto;
-    margin-top: 9rem;
 
     border: 1px solid var(--border);
 
@@ -137,12 +142,14 @@ body {
 
   align-items: center;
 
-  width: fit-content;
+  width: 90%;
 
-  margin: 3rem auto;
+  max-width: 600px;
 
-  padding: 1rem 2rem;
+  min-height: 100px;
 
+  overflow: hidden;
+  
   background: rgba(24, 24, 80, 0.35);
 
   border: 1px solid rgba(217, 182, 80, 0.35);
@@ -362,5 +369,82 @@ a:hover {
     color: var(--mauve);
 
     opacity: 1;
+
+}
+
+/* =====================
+   Responsividade
+===================== */ 
+
+@media (max-width: 768px) {
+
+    body {
+        align-items: flex-start;
+    }
+
+
+    .vim-style {
+
+        width: 95%;
+
+        margin-top: 2rem;
+
+    }
+
+
+    main {
+
+        padding: 1rem;
+
+    }
+
+
+    .kaua-developer {
+
+        font-size: 1.7rem;
+
+    }
+
+
+    .div-kaua-developer {
+
+        margin: 2rem auto;
+
+        padding: 1rem;
+
+        width: 90%;
+
+    }
+
+
+    h1 {
+
+        font-size: 2rem;
+
+    }
+
+
+    h2 {
+
+        font-size: 1.4rem;
+
+    }
+
+
+    p {
+
+        font-size: .9rem;
+
+    }
+
+
+    .vim-footer {
+
+        flex-direction: column;
+
+        gap: 1rem;
+
+    }
+
 
 }
