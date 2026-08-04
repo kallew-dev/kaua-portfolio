@@ -26,5 +26,32 @@ async function typeText(text) {
   }
 }
 
+// Deleta o texto para sobrescreve-lo 
+async function deleteText() {
+  
+  while (element.textContent.length > 0) {
 
+    element.textContent = element.textContent.slice(0, -1);
+    await sleep(DELETE_SPEED);
+  }
+}
 
+async function animation() {
+
+  while (true) {
+
+    await typeText(NAME);
+    await sleep(NAME_DELAY);
+
+    await deleteText();
+
+    await typeText(ROLE);
+    await sleep(ROLE_DELAY);
+
+    await deleteText();
+    // Repete o loop a cada 30 segundos
+  }
+}
+
+animation();
+console.log(element)

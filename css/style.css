@@ -69,11 +69,21 @@ body {
 }
 
 /* =========================
+   Portifolio
+========================= */
+
+.portifolio {
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+}
+
+/* =========================
    Janela Vim
 ========================= */
 
 .vim-style {
-
     background: var(--base);
 
     width: 90%;
@@ -81,6 +91,7 @@ body {
     max-width: 900px;
 
     margin: 2rem auto;
+    margin-top: 9rem;
 
     border: 1px solid var(--border);
 
@@ -88,8 +99,62 @@ body {
 
     overflow: hidden;
 
+    box-shadow: 0 20px 60px rgba(0, 0, 0, .45);
+
+}
+/* =========================
+   Animation JS 
+========================= */ 
+
+.kaua-developer {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 3rem;
+
+
+  font-weight: bold;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+
+  background: linear-gradient(
+    90deg,
+    var(--blue),
+    var(--mauve),
+    var(--retro-yellow)
+  );  
+
+  background-clip: text;
+  -webkit-background-clip: text;
+
+  
+  text-shadow: 0 0 8px rgba(217, 182, 80, 0.35);
+
 }
 
+.div-kaua-developer {
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  width: fit-content;
+
+  margin: 3rem auto;
+
+  padding: 1rem 2rem;
+
+  background: rgba(24, 24, 80, 0.35);
+
+  border: 1px solid rgba(217, 182, 80, 0.35);
+
+  border-radius: 12px;
+
+  backdrop-filter: blur(8px);
+
+  box-shadow:
+    0 0 12px rgba(217, 182, 80, 0.15),
+    0 0 30px rgba(217, 182, 80, 0.08);
+}
 
 /* =========================
    Main
@@ -97,7 +162,7 @@ body {
 
 main {
 
-    padding: 2rem;
+  padding: 2rem;
 
 }
 
