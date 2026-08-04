@@ -282,6 +282,8 @@ p {
 
 .button {
 
+    display: inline-block; 
+
     color: var(--blue);
 
     text-decoration: underline;
