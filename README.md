@@ -1,121 +1,55 @@
-# 🌐 Kauã Miranda - Developer Portfolio
+# Kauã Miranda - Portfolio
 
-![Portfolio Preview](./assets/preview.png)
+Meu portfólio pessoal desenvolvido para apresentar minha jornada na programação, meus projetos e minha evolução como desenvolvedor.
 
-Meu portfólio pessoal desenvolvido do zero com HTML, CSS e JavaScript.
+O projeto foi criado com foco em uma experiência visual inspirada no ambiente Vim/Neovim, utilizando uma interface minimalista, com uma identidade baseada em terminal e desenvolvimento de software.
 
-O objetivo deste projeto é apresentar minha trajetória na programação, meus projetos, minhas habilidades e minha evolução como desenvolvedor.
+## 🚀 Tecnologias
 
----
+* HTML5
+* CSS3
+* JavaScript
 
-## 📌 Sobre o Projeto
+## 🎯 Objetivo
 
-Este site foi criado como uma apresentação profissional, reunindo minha jornada na tecnologia, projetos desenvolvidos e conhecimentos adquiridos ao longo do tempo.
+Criar um espaço onde eu possa apresentar:
 
-Mais do que um simples site, este projeto representa minha evolução como programador e minha busca por construir soluções utilizando boas práticas de desenvolvimento.
+* Minha história na programação;
+* Projetos desenvolvidos;
+* Tecnologias que estudo;
+* Minha evolução como desenvolvedor.
 
----
+## 🖥️ Características
 
-## 🎯 Objetivos
+* Design inspirado no Vim/Neovim;
+* Tema baseado no Catppuccin Mocha;
+* Animação de escrita com JavaScript;
+* Layout responsivo;
+* Estrutura simples e otimizada.
 
-- Criar uma identidade profissional online;
-- Apresentar minha experiência e trajetória;
-- Destacar projetos de desenvolvimento;
-- Demonstrar conhecimentos em desenvolvimento web;
-- Praticar HTML, CSS e JavaScript.
+## 📂 Estrutura do projeto
 
----
-
-## 🛠️ Tecnologias Utilizadas
-
-### Front-end
-
-- HTML5
-- CSS3
-- JavaScript
-
-### Ferramentas
-
-- Git
-- GitHub
-- VS Code / Neovim
-
----
-
-## ✨ Funcionalidades
-
-- [x] Página inicial com apresentação pessoal;
-- [x] Seção sobre minha jornada;
-- [x] Apresentação de projetos;
-- [x] Área de habilidades;
-- [x] Links profissionais;
-- [x] Design responsivo;
-- [x] Animações utilizando JavaScript.
-
----
-
-## 📂 Estrutura do Projeto
-
-```text
-portfolio/
-│
+```
+.
 ├── index.html
-│
 ├── css/
-│ └── style.css
-│
+│   └── style.css
 ├── js/
-│ └── script.js
-│
-├── assets/
-│ ├── images/
-│ └── icons/
-│
+│   └── script.js
 └── README.md
 ```
 
-# Estrutura do Site
+## 📌 Sobre mim
 
-```dashboard
-┌─────────────────────────────┐
-│ Navbar                      │
-├─────────────────────────────┤
-│ Hero                        │
-│ "Olá, eu sou Kauã"          │
-│ Botões GitHub / LinkedIn    │
-├─────────────────────────────┤
-│ Sobre Mim                   │
-├─────────────────────────────┤
-│ Minha Jornada               │
-├─────────────────────────────┤
-│ Habilidades                 │
-├─────────────────────────────┤
-│ Projetos                    │
-├─────────────────────────────┤
-│ Objetivos                   │
-├─────────────────────────────┤
-│ Contato                     │
-└─────────────────────────────┘
-```
+Sou Kauã Miranda, desenvolvedor em formação com foco em desenvolvimento Back-end.
 
+Minha jornada começou pela curiosidade de entender como os sistemas funcionavam e evoluiu para o desenvolvimento de aplicações, estudos sobre arquitetura de software, bancos de dados, Linux e fundamentos da computação.
 
-##  Sobre Mim
+Atualmente continuo criando projetos pessoais para transformar conhecimento em prática e evoluir como desenvolvedor.
 
-Sou Kauã Miranda, desenvolvedor focado em back-end e interessado em compreender como sistemas funcionam desde a aplicação até seus fundamentos.
+## 📫 Contato
 
-Tenho estudado desenvolvimento de software, arquitetura de sistemas, bancos de dados e linguagens de programação como Python, C++ e Java.
-
----
-
-## 📬 Contato
-
-GitHub:
-[https://github.com/kallew-dev/](https://github.com/kallew-dev)
-
-LinkedIn:
-[LinkedIn](https://www.linkedin.com/kaua-dev)
-
-
-Email:
-[kalabs.dev@gmail.com](mailto:kalabs.dev@gmail.com)
+* [GitHub](https://github.com/kallew-dev)
+* [LinkedIn](https://www.linkedin.com/in/kaua-dev/)
+* [kalabs.dev@gmail.com](mailto:kalabs.dev@gmail.com)
 
